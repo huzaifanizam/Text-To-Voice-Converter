@@ -1,9 +1,93 @@
-*{
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+:root {
+    --bodybackground-color: linear-gradient(45deg, #010758, #490d61);
+    --span-color: #ff2963;
+    --text-color: #fff;
+    --textAreabackground-color: #403d84;
+    --placeholdertext-color: #ddd;
+}
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
-.hero{
-    
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--bodybackground-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--text-color);
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.hero h1 span {
+    color: var(--span-color);
+}
+
+.hero textarea {
+    width: 600px;
+    height: 250px;
+    background: var(--textAreabackground-color);
+    color: var(--text-color);
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.hero textarea::placeholder {
+    font-size: 16px;
+    color: var(--placeholdertext-color);
+}
+
+.hero .row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero .row select {
+    flex: 1;
+    background: var(--textAreabackground-color);
+    color: var(--text-color);
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    appearance: none;
+    background-image: url(/images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x:calc(100% - 20px) ;
+    background-position-y:20px ;
+}
+
+.hero .row button {
+    background: var(--span-color);
+    color: var(--text-color);
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
