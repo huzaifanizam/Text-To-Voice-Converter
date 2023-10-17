@@ -4,8 +4,8 @@
 <img src="./img/3.web.png" alt="GitHUB" align="center" >
 
 ## "Mobile View"
-<img src="./img/responsive.png" alt="GitHUB" align="center" >
-<img src="./img/responsive.2.png" alt="GitHUB" align="center" >
+<img src="./img/3.web.png" alt="GitHUB" align="center" >
+<img src="./img/3.web.png" alt="GitHUB" align="center" >
 
 
 # Getting Started with Text To Voice Converter app
