@@ -54,8 +54,15 @@
     align-items: center;
     gap: 20px;
 }
+.dayAndTime{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    width: 100%;
+    color: var(--text-color);
+}
 .hero .row select {
-    flex: 1;
+    flex:1;
     background: var(--textAreabackground-color);
     color: var(--text-color);
     height: 50px;
